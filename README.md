@@ -14,12 +14,26 @@
 ## File Structure
 ```
 PH Earthquakes
-├── Earthquake_PH_Web_Scraping.ipynb
-├── Earthquake_PH_Web_Scraping.py
-├── README.md
-├── earthquake_ph_list_csv
-├── metadata.json
-L── requirements.txt
+├── data/
+|   ├── processed/
+|   |
+|   ├── raw/
+|   |
+|   L── test/
+|
+├── documents/
+|
+├── scripts/
+|   ├── extract/
+|   ├── load/
+|   ├── testing/
+|   ├── transform/
+|   ├── code_profiling.py
+|   ├── etl.py
+|   ├── send_report.py
+|   L── style_checker.py
+|
+L── README.md
 ```
 ## Automation Workflow
 ```mermaid
